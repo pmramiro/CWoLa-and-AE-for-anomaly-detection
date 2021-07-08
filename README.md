@@ -13,7 +13,7 @@ The functionality of each code is detailed below.
 ## Codes used to calculate SIC curves and p-values
 
 ### CWoLa
-* CWoLa_m500_SIC_curves.ipynb: we calculate the averaged SIC curve for each S/B benchmark.
+* CWoLa_m500_SIC_curves.ipynb: calculates the averaged SIC curve for each S/B benchmark.
 * CWoLa_m500_pvalues_from_fit.ipynb: the classifier is deployed on test data. We calculate the significance of the signal region excess after applying a set of fixed cuts on the classifer output.
 * CWoLa_m500_pvalues_based_on_SIC.ipynb: the classifier is deployed on test data. We calculate the significance of the signal region excess after applying a set of cuts on the classifer output. These cuts correspond to a set of working points of the ROC curve and are tuned using the peak of the SIC curve. More specifically, we take the signal efficiencies that correspond to the peak(s) of the SIC curve, we calculate the thresholds for these fixed signal efficiencies, and then take all the events on the test set above that threshold.
 
@@ -23,6 +23,6 @@ The functionality of each code is detailed below.
 * Code 3
 
 ## Auxiliary codes
-* check_efficiency_after_epoch_end.ipynb: this piece of code is used on the main code to track the custom metric that we monitor durim training.
-* get_p_value.ipynb: this piece of code contains the function that we use to calculate the p-value for the signal region excess.
+* check_efficiency_after_epoch_end.ipynb: used in the main code to track the custom metric that we monitor during training.
+* get_p_value.ipynb: contains the function that we use to calculate the p-value for the signal region excess.
 
