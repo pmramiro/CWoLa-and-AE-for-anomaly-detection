@@ -2,7 +2,7 @@
 
 This repository contains the codes with the implementation of the CWoLa Hunting and Autoencoder techniques for anomaly detection, and several additional codes to calculate the significance of the signal region excess after applying a cut on the classifers output.
 
-These codes have been used to produce the results presented in the publication *Comparing Weak- and Unsupervised Methods for Resonant Anomaly Detection*, which can be found here: [arXiv:2104.02092](https://arxiv.org/abs/2104.02092). The data used to produced these results was generated in the context of the LHC Olympics 2020 and can be downloaded from [this](https://zenodo.org/record/4536377) Zenodo repository.
+These codes have been used to produce the results presented in the publication *"Comparing Weak- and Unsupervised Methods for Resonant Anomaly Detection"*, which can be found here: [arXiv:2104.02092](https://arxiv.org/abs/2104.02092). The data used to produced these results was generated in the context of the LHC Olympics 2020 and can be downloaded from [this](https://zenodo.org/record/4536377) Zenodo repository.
 
 The functionality of each code is detailed below.
 
