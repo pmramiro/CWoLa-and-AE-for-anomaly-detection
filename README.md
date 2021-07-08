@@ -6,7 +6,7 @@ These codes have been used to produce the results presented in the publication *
 
 The functionality of each code is detailed below:
 
-## **Main codes**
+## Main codes
 * CWoLa_scan_signal_m500.ipynb: implementation of the CWoLa Hunting technique for anomaly detection. The models are trained using this code.
 * CWoLa_m500_SIC_curves.ipynb: we calculate the averaged SIC curve for each S/B benchmark.
 * CWoLa_m500_pvalues_from_fit.ipynb: the classifier is deployed on test data. We calculate the significance of the signal region excess after applying a set of fixed cuts on the classifer output.
